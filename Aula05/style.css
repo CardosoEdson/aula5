@@ -1,45 +1,112 @@
-body{
-    background-color:rgb(208, 238, 153);
-    font-family:sans-serif;
-    margin:0;
-    padding:20px;
+body {
+    background-color: rgb(208, 238, 153);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0px;
+    border-radius: 12px;
 }
-img{width:180px;
-border-radius: 10px;
+
+img {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
 }
-#conteudo-pagina{
-    display:grid;
+
+#conteudo-pagina {
+    display: grid;
     grid-template-columns: 1fr;
     min-height: 80vh;
     place-items: center;
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 3rem;
-    color:crimson;
-    margin: -20px 0 40px 0;
+    color: crimson;
+    margin: 30px 0 10px 0;
 }
 
-.Texto{
-    display:grid;
-    grid-template-columns: 450px 1fr;
-    column-gap: 30px;
+.Texto {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    column-gap: 120px;
     align-items: start;
     max-width: 900px;
     margin: 0 auto;
 }
-.texto{
+
+.img1 {
+    text-align: left;
+}
+
+#galeria-superior {
+    width: 850%;
+    max-width: 900px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;   
+}
+
+.linha-superior {
+    display: flex;
+    flex-direction: row;     
+    justify-content: center;  
+    gap: 80px;                
+}
+
+.linha-superior img {
+    width: 180px ;             
+}
+
+.linha-inferior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    gap: 90px;                
+}
+
+.linha-inferior img {
+    width: 350px ; 
+    max-width: none ;
+}
+
+.subtitulo { 
+    text-align: left;     
+    font-size: 1.5rem;
+    color: rgb(57, 20, 220);
+    margin: 0 0 15px 0;
+}
+
+.novo-conteudo {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 60px auto; 
+}
+
+.Texto-Novo {
+    display: grid;
+    grid-template-columns: 250px 1fr; 
+    column-gap: 30px;                
+    align-items: start;              
+}
+
+.img-nova img {
+    width: 250px !important;
+    max-width: none !important;
+}
+
+.texto-paragrafo {
     font-size: 1.25rem;
     line-height: 1.6;
     margin: 0;
 }
-.img1{
+.subtitulo-priemeiro {
     text-align: left;
-}
-#galeria-inferior{
-    display:grid;
+    font-size: 1.5rem;
+    color: rgb(57, 20, 220); 
+    margin: 0 0 15px 0; 
 }
